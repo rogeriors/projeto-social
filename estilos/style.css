@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url('../imagens/back.webp') no-repeat center center;
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+#iphone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 520px;
+    background-image: url("../imagens/iphone.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51%, -50%);
+    height: 670px;
+    width: 310px; 
+    border-radius: 40px;
+}
